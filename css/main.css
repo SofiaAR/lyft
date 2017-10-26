@@ -1,3 +1,128 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	margin:0;
+	padding:0;
+	font-family: "Montserrat",sans-serif;
+}
+
+body{
+	/*dos puntos porq la carpeta no esta a la misma alturany debe devolverse*/
+	height:auto;/*para que se ajuste automaticamente nuestro fondo en la medida q se rellene*/
+	width: 100%;/*idem*/
+	/*background-size:contain;*//*es para que nuestro contenido quede centrado al navegador*/
+	/*background-repeat:none;*/
+	/*position: absolute;*/
+}
+header{
+	background-size:cover;*//*es para que nuestro contenido quede centrado al navegador*/
+	background-repeat:no-repeat;
+	background-image: url(../assets/images/hero.gif);
+
+}
+/*INICIO HEADER-MENU*/
+.logotipo{ /*contenedor imagen*/
+	width:5%;
+	height: auto;
+	margin-top:0; /*para que no haga margen*/
+	margin-left:2%;
+}
+
+.logo{/*imagen logo*/
+	width:100%;
+	height:auto;
+	float:left;
+	display:block;/*para que se comporte como bloque*/
+	margin-top: 35px;
+	padding-left: 40px;
+}
+ul{ /*es el contenedor de li*/
+	list-style: none;
+	overflow: hidden; /*para que no se colapse luego de usar float*/
+	padding: 20px;
+	margin-left: 850px;
+}
+.login{
+	background-color:#333447;
+	border:outset;
+}
+li{/*para que solo lo q esta en el interior de nuestro li flote a la derecha*/
+	float: left;
+	margin-top: 20px;
+}
+
+
+li a{/*cambiando links colores,posicion y sacando viñeta,poniendo tbn otra letra*/
+	color:#fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+li a:hover:not(.active){ /*cuando pasas el mouse muestra otro color*/
+	background-color: #FF00BF;
+}
+
+.a:active{
+	background-color:#fff;
+}
+
+/*FIN HEADER-MENU*/
+/*INICIO HEADER CUADRO PHONE-NUMBER*/
+.contenedor_1{
+	width: 32%;
+	height:auto;
+	background-color: #fff;
+	margin-left:874px ;
+	padding-bottom:280px;
+	text-align:center;
+	text-decoration: none;
+}
+h1{
+	color: #352384;
+}
+h2{
+	color: #352384;
+	font-size: 15px;
+	font-weight: 500;
+}
+input{
+	width: 70%;
+}
+.becomedrive{/* boton drive*/
+	background-color:#FF00BF;
+	border:hidden;
+	border-radius:10%;
+    width:100px;
+    height:40px;
+    color:#fff;
+
+}
+/*.name{
+	color:#fff;
+	z-index: 10;*/
+}
+form,p,span{
+	color: #728099;
+	font-size:10%;
+	font-weight:;
+}
+
+/*INICIO SECTION*/
+.phone-section{
+background-image: -webkit-linear-gradient(#76278F, #2B1E66);
+background-image: -o-linear-gradient(#76278F, #2B1E66);
+background-image: linear-gradient(#76278F, #2B1E66);
+}
+.container-text{
+
+}
+
+.contenedor-imagen{
+	width: 30%;
+	height:auto;
+	outline: 2px solid red;
+	margin-left: 852px;
+}
+.phone{
+	width:100%
+}
