@@ -41,8 +41,14 @@ ul{ /*es el contenedor de li*/
 	margin-left: 850px;
 }
 .login{
-	background-color:#333447;
-	border:outset;
+	background-color: #25123D;
+    border: 1px solid#ccc;
+    border-radius: 15%;
+    width: 66px;
+    height: 35px;
+    /* box-shadow: 2px 2px 1px #999; */
+    color: white;
+    margin-top: -11px;
 }
 li{/*para que solo lo q esta en el interior de nuestro li flote a la derecha*/
 	float: left;
@@ -69,33 +75,66 @@ li a:hover:not(.active){ /*cuando pasas el mouse muestra otro color*/
 /*FIN HEADER-MENU*/
 /*INICIO HEADER CUADRO PHONE-NUMBER*/
 .contenedor_1{
-	width: 32%;
-	height:auto;
+	width:471px;
+	height:257px;
 	background-color: #fff;
-	margin-left:874px ;
+	margin-left:815px ;
 	padding-bottom:280px;
 	text-align:center;
 	text-decoration: none;
 }
 h1{
 	color: #352384;
+	padding: 91px 150px 10px 0px;
 }
 h2{
 	color: #352384;
 	font-size: 15px;
 	font-weight: 500;
+	margin-right: 134px;
 }
 input{
-	width: 70%;
+	width: 83%;
+	margin-right: -34px;
+	margin-bottom: 30px;
+	margin-top: 45px;
+	border-bottom-color:#352384;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	font-size: 17px;
 }
 .becomedrive{/* boton drive*/
 	background-color:#FF00BF;
 	border:hidden;
 	border-radius:10%;
-    width:100px;
+    width:117px;
     height:40px;
     color:#fff;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 57px;
+    float: left;
+    box-shadow: 2px 2px 5px #999;
 
+}
+.signup{
+	margin-top:12px;
+	color:#728099;
+	margin-right: 144px;
+	float: right;
+
+}
+.already{
+	margin-top: 110px;
+}
+header p{
+	font-size:10px;
+	margin-bottom:12px;
+	color: #728099;
+}
+p a{
+	text-decoration: none;
 }
 /*.name{
 	color:#fff;
@@ -107,14 +146,18 @@ form,p,span{
 	font-weight:;
 }
 
-/*INICIO SECTION*/
+/*INICIO SECTION PHONE-IMAGE*/
 .phone-section{
 background-image: -webkit-linear-gradient(#76278F, #2B1E66);
 background-image: -o-linear-gradient(#76278F, #2B1E66);
 background-image: linear-gradient(#76278F, #2B1E66);
+width: 100%;
 }
 .container-text{
-
+display: inline-block;
+margin-left: 111px;
+	margin-bottom: -67;
+	float: right;
 }
 
 .contenedor-imagen{
@@ -122,7 +165,19 @@ background-image: linear-gradient(#76278F, #2B1E66);
 	height:auto;
 	outline: 2px solid red;
 	margin-left: 852px;
+	display: inline-block;
+
 }
 .phone{
 	width:100%
+}
+h3{
+	color:white;
+	font-size: 22px;
+	font-weight:500;
+
+}
+section p{
+	color: white;
+	font-size: 12px
 }
