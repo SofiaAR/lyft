@@ -34,7 +34,7 @@ header{
 	margin-top: 35px;
 	padding-left: 40px;
 }
-ul{ /*es el contenedor de li*/
+header ul{ /*es el contenedor de li*/
 	list-style: none;
 	overflow: hidden; /*para que no se colapse luego de usar float*/
 	padding: 20px;
@@ -50,13 +50,13 @@ ul{ /*es el contenedor de li*/
     color: white;
     margin-top: -11px;
 }
-li{/*para que solo lo q esta en el interior de nuestro li flote a la derecha*/
+header li{/*para que solo lo q esta en el interior de nuestro li flote a la derecha*/
 	float: left;
 	margin-top: 20px;
 }
 
 
-li a{/*cambiando links colores,posicion y sacando viñeta,poniendo tbn otra letra*/
+nav ul li a{/*cambiando links colores,posicion y sacando viñeta,poniendo tbn otra letra*/
 	color:#fff;
 	text-align: center;
 	padding: 14px 16px;
@@ -64,7 +64,7 @@ li a{/*cambiando links colores,posicion y sacando viñeta,poniendo tbn otra letr
 
 }
 
-li a:hover:not(.active){ /*cuando pasas el mouse muestra otro color*/
+ nav ul li a:hover:not(.active){ /*cuando pasas el mouse muestra otro color*/
 	background-color: #FF00BF;
 }
 
@@ -152,21 +152,31 @@ background-image: -webkit-linear-gradient(#76278F, #2B1E66);
 background-image: -o-linear-gradient(#76278F, #2B1E66);
 background-image: linear-gradient(#76278F, #2B1E66);
 width: 100%;
+overflow:hidden;
+
+}
+.both-container{
+	widht:80%;
+	overflow: hidden;
+	/*outline:1px solid blue;*/
 }
 .container-text{
-display: inline-block;
-margin-left: 111px;
-	margin-bottom: -67;
+	display:inline-block;
 	float: right;
+	/*outline: 2px solid green;*/
+	margin-right:700px;
+	margin-top:90px;
 }
 
 .contenedor-imagen{
 	width: 30%;
 	height:auto;
-	outline: 2px solid red;
-	margin-left: 852px;
+	/*outline: 2px solid red;*/
+	margin-left: 757px;
 	display: inline-block;
-
+	float:left;
+	clear: both;
+	margin-top: -424px;
 }
 .phone{
 	width:100%
@@ -180,4 +190,152 @@ h3{
 section p{
 	color: white;
 	font-size: 12px
+}
+
+/*FIN SECTION PHONE-IMAGE*/
+/*SECTION VIDEO*/
+h6{
+	font-size:65%%;
+}
+h4{
+	font-size: 130%;
+}
+.video{
+	clear:both;
+	overflow: hidden;
+	/*width: 100%
+	height:auto;*/
+	/*outline: 2px solid blue;*/
+}
+.parrafo-video{
+	width:70%;
+	height: auto;
+	text-align:left;
+	margin-left:85px;
+
+}
+.video-1{
+	float:right;
+	width: 70%;
+	height: auto;
+	/*outline: 1px solid red;*/
+	/*clear: both;*/
+}
+.data-text{
+	float:left;
+	width:30%;
+	height: auto;
+	color: black;
+	/*outline: 2px solid pink;*/
+	clear: both;
+	text-align:center;
+}
+.inside-text{
+	/*outline: 4px solid black;*/
+}
+.watch{
+	text-align: left;
+    margin-left: 90px;
+    padding-top:40px;
+}
+.video-2{
+	float: left;
+	width: 70%;
+	height: auto;
+	/*outline: 1px solid red;*/
+}
+
+.data-text2{
+	width:30%;
+	height: auto;
+	float: right;
+	/*outline: 3px solid pink;*/
+	text-align:center;
+}
+.watch2{
+	margin-right: 169px;
+	padding-top:40px;
+}
+.june{
+	margin-right: 157px;
+}
+.inside-text2{
+
+}
+.video-3{
+	float:right;
+	width: 70%;
+	height: auto;
+	/*outline: 1px solid red;*/
+}
+.data-text3{
+	width:30%;
+	height: auto;
+	float: left;
+	/*outline: 3px solid pink;*/
+	text-align:center;
+}
+.inside-text3{
+
+}
+.watch3{
+	padding-top: 40px;
+	margin-right:170px;
+}
+.video p{
+	color:black;
+	/*outline: 1px solid green;*/
+}
+/*FIN SECTION VIDEO*/
+/*INICIO FOOTER*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color:#333447;
+}
+.container-general{
+	width: 100%;
+	height: auto;
+	/*display:inline-block;*/
+	overflow:hidden;
+	background-color:#333447; 
+	outline: 1px solid red;
+}
+footer li{
+	color: white;
+	text-decoration:none;
+}
+.lista1{
+	width: 20%
+	height: auto;
+	outline:1px solid black;
+	text-decoration: none;
+	float: left;
+	clear: both;
+}
+.lista2{
+	width: 20%
+	height: auto;
+	outline: 1px solid pink;
+	float: left;
+	clear: both;
+	margin-left: 382px;
+}
+.lista3{
+	width: 200px
+	height: auto;
+	outline: 1px solid yellow;
+	float: left;
+	    clear: both;
+    margin-left: 657px;
+    margin-top: -90px;
+}
+.Lista-botones{
+	width: 20%
+	height: auto;
+	outline: 1px solid green;
+	float:left;
+    clear: both;
+    margin-left: 860px;
+    margin-top: -130px;
 }
